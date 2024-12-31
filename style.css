@@ -309,3 +309,9 @@ button {
     margin-bottom: 0;
   }
 }
+
+@media (min-width: 600px) and (height < 400px) {
+  .result {
+    height: clamp(auto, 385.5px, auto);
+  }
+}
