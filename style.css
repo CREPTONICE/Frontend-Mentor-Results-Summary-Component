@@ -241,7 +241,7 @@ button {
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
   body {
     background-color: var(--Pale--blue);
   }
@@ -258,7 +258,7 @@ button {
   .result {
     border-radius: 20px;
     margin-inline-start: auto;
-    height: 385.5px;
+    max-height: 470px;
     padding: 3rem;
 
     h1 {
